@@ -1,7 +1,7 @@
 /*globals chrome */
 
 function updateIcon(state){
-	var color = state ? [255, 0, 0, 255] : [190, 190, 190, 230];
+	var color = state ? [60, 190, 60, 255] : [190, 190, 190, 230];
 	var text = state ? 'On' : 'Off';
 
 	chrome.browserAction.setBadgeBackgroundColor({color: color});
